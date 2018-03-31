@@ -1,14 +1,17 @@
 # Deported
 
-Due to a recent change that requires ```render.Capture(Pixels)``` to be
-within a render hook when called would cause legit players to return a
-black screen which is intended, however users utilizing Citzen Hack would
-return a clean screenshot still.  
+A brain-dead simple Citizen Hack detection tool. Currently unpatched!
 
-This small script calls ```render.CapturePixels``` outside of a render hook
-so that legit players will return a black pixel reading and Citizen Hack
-users should return anything other than true black (#000000) which will lead
-to their Steam64ID being logged.
+## How does it work?
+
+After a recent Garry's Mod update, calling ```render.Capture(Pixels)```
+outside of a render hook will result in a black screenshot for legitimate
+players. However, users of Citizen Hack still return a proper, "clean"
+screenshot.
+
+Using this knowledge, we check for true black (```#000```) pixels. If
+anything other than that is returned, we log them and fire a detection
+hook.
 
 ## Installation
 
