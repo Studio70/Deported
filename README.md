@@ -1,6 +1,8 @@
 # Deported
 
-A brain-dead simple Citizen Hack detection tool. Currently unpatched!
+# This method has been patched
+
+A brain-dead simple Citizen Hack detection tool.
 
 ## How does it work?
 
