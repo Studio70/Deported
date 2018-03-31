@@ -12,7 +12,7 @@ to their Steam64ID being logged.
 
 ## Installation
 
-1. Navigate to ```GarrysMod/garrysmod``` directory.
+1. Navigate to your ```GarrysMod/garrysmod``` directory.
 2. Clone this repository or extract the latest version to the ```addons/```
 folder.
 
