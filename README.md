@@ -12,8 +12,9 @@ to their Steam64ID being logged.
 
 ## Installation
 
-Clone into the add-ons folder  
-Cheaters will be dumped into a file named citizens.txt within the data folder
+1. Navigate to ```GarrysMod/garrysmod``` directory.
+2. Clone this repository or extract the latest version to the ```addons/```
+folder.
 
 ## Detection logs
 
