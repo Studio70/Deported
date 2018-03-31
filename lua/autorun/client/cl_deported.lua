@@ -1,0 +1,7 @@
+net.Receive("showmeyourpapers", function()
+    render.CapturePixels()
+    local r,g,b = render.ReadPixel(ScrH()/2, ScrW()/2)
+    net.Start("mypapers")
+        net.WriteInt(r+g+b, 11)
+    net.SendToServer()
+end)
