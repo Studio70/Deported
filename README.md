@@ -1,8 +1,12 @@
 # Deported
 
-# This method has been patched
-
 A brain-dead simple Citizen Hack detection tool.
+
+## Status
+
+Unfortunately, Citizen Hack patched this method on March 31st, 2018.
+
+However, it may still work for other cheats with similar issues.
 
 ## How does it work?
 
